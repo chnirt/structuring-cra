@@ -1,10 +1,12 @@
-Desscription [Link](https://medium.com/appstud/eslint-and-prettier-working-on-visual-studio-code-with-create-react-app-32dfef4b029c)
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Structuring CRA Project
 
-Click [here](https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76)
+See more [here](https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76)
+
+## Config ESLint & Prettier
+
+See more [here](https://medium.com/appstud/eslint-and-prettier-working-on-visual-studio-code-with-create-react-app-32dfef4b029c)
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

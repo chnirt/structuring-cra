@@ -1,6 +1,6 @@
 import React from 'react'
 import routes from '../routes'
-import MenuWithSubMenus from '../shared/MenuWithSubMunes'
+import MenuWithSubMenus from '../shared/MenuWithSubMenus'
 
 const Header = () => {
   return (

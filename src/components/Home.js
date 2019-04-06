@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Login from '../auth/Login'
-import UserList from '../screens/User/List'
+import UserList from '../pages/User/List'
 
 export class Home extends Component {
   render() {

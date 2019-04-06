@@ -2,13 +2,14 @@ import Home from './components/Home'
 import Login from './auth/Login'
 import Register from './auth/Register'
 import About from './components/About'
-import ChangePassword from './screens/User/ChangePassword'
-import UpdateInformation from './screens/User/UpdateInformation'
+import ChangePassword from './pages/User/ChangePassword'
+import UpdateInformation from './pages/User/UpdateInformation'
 
 // USER
-import ScreenUser from './screens/User/Index'
-import ScreenUserForm from './screens/User/Form'
-import ScreenUserList from './screens/User/List'
+import ScreenUser from './pages/User/Index'
+import ScreenUserForm from './pages/User/Form'
+import ScreenUserList from './pages/User/List'
+import Notfound from './components/Notfound'
 
 const routes = [
   {
@@ -46,22 +47,22 @@ const routes = [
   },
   {
     label: 'User',
-    path: '/user',
+    path: '/users',
     component: ScreenUser,
     routes: [
       {
         label: 'User List',
-        path: '/user/list',
+        path: '/users/list',
         component: ScreenUserList,
       },
       {
         label: 'Create User',
-        path: '/user/create',
+        path: '/users/create',
         component: ScreenUserForm,
       },
       {
-        label: 'Create User',
-        path: '/user/:id',
+        label: 'Update User',
+        path: '/users/:id',
         component: ScreenUserForm,
       },
     ],
@@ -70,6 +71,11 @@ const routes = [
     label: 'Test',
     path: '/test',
     component: ScreenUserForm,
+  },
+  {
+    label: 'Not Found',
+    path: '*',
+    component: Notfound,
   },
 ]
 

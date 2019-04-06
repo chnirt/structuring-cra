@@ -1,12 +1,11 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import MenuWithSubMenus from '../shared/MenuWithSubMunes'
+import MenuWithSubMenus from '../shared/MenuWithSubMenus'
 
 const About = ({ routes }) => {
   return (
     <div>
       About Page
-      <br />
       {/* Header */}
       <ol>
         {routes.map((route, i) => (
